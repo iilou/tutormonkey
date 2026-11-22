@@ -1,7 +1,7 @@
 [project]
 name = "api"
 version = "0.1.0"
-description = "Add your description here"
+description = "FastAPI backend for TutorMonkey"
 readme = "README.md"
 authors = [
     { name = "iilou", email = "limarvin88888888@gmail.com" }
@@ -11,9 +11,6 @@ dependencies = [
     "fastapi>=0.165.0",
     "uvicorn[standard]>=0.54.0",
 ]
-
-[project.scripts]
-api = "api:main"
 
 [tool.uv]
 package = false
